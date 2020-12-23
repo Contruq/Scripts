@@ -3,8 +3,8 @@
 
 -- _G.GiftExchange = false -- false/true 
 -- _G.PresentTeleporter = false -- false/true 
+_G.WaitTimeLine = 3
 -- ^^ above is  for a different Part of Script. ^^ --
-
 -- Don't change anything if you don't know --
 
 _G.CFrameSave = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
@@ -25,7 +25,7 @@ function GiftExProc()
     virtualUser:CaptureController()
     virtualUser:SetKeyDown(122)
     virtualUser:SetKeyUp(122)
-    wait(3)
+    wait(_G.WaitTimeLine)
     virtualUser:SetKeyDown(122)
     virtualUser:SetKeyUp(122)
     wait()
