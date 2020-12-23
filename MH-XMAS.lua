@@ -51,5 +51,5 @@ end
 
 while _G.PresentTeleporter == true do
     PresentTP()
-    wait(15)
+    wait()
 end
