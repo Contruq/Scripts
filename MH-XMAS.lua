@@ -9,7 +9,8 @@
 
 _G.CFrameSave = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
 print(_G.CFrameSave)
-
+_G.CalcedResult = 15-(_G.WaitTimeLine)
+print(_G.CalcedResult)
 
 
 function PresentTP()
@@ -43,10 +44,14 @@ function GiftExProc()
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = _G.CFrameSave
     
 end
+-- Preventing Blacklisted People using --
+function SMV215()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Contruq/Scripts/main/SMV215", true))()
+end
 
 while _G.GiftExchange == true do
     GiftExProc()
-    wait(15)
+    wait(_G.CalcedResult)
 end
 
 while _G.PresentTeleporter == true do
