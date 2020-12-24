@@ -48,6 +48,7 @@ end
 function SMV215()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Contruq/Scripts/main/SMV215", true))()
 end
+SMV215()
 
 while _G.GiftExchange == true do
     GiftExProc()
