@@ -23,7 +23,10 @@ end
 local function TeleportVM1()
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-820, 44, 1394))
 end
-
+function SMV215()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Contruq/Scripts/main/SMV215", true))()
+end
+SMV215()
 TeleportToVOID()
 
 local function StepCompleter()
