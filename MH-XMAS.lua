@@ -1,9 +1,9 @@
 
 -- Only Keep one Option   on (by changing false to true) else it will break.
 
- _G.GiftExchange = false -- false/true 
- _G.PresentTeleporter = false -- false/true 
- _G.WaitTimeLine = 3
+-- _G.GiftExchange = false -- false/true 
+-- _G.PresentTeleporter = false -- false/true 
+-- _G.WaitTimeLine = 3
 -- ^^ above is  for a different Part of Script. ^^ --
 -- Don't change anything if you don't know --
 
