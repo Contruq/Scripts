@@ -68,10 +68,3 @@ while _G.PresentTeleporter == true do
     PresentTP()
     wait()
 end
-
-for i,v in pairs(game.Workspace.)
-
-for i,v in pairs(game:GetService("Workspace").Tycoons)() do
-   print("") 
-end
-end
