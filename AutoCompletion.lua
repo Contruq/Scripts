@@ -9,13 +9,6 @@ local PlaceVOID1 = 4464946645
 local VM1CF =   CFrame.new(Vector3.new(-819, 44, 1394))
 print(LocCF)
 
-
-local function SMV215()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Contruq/Scripts/main/SMV215", true))()
-end
-
-SMV215()
-
 local function TeleportToVOID()
 if Place ~= PlaceMH and Place ~= PlaceVOID1 then
     TeleportService:Teleport(PlaceMH, LocPLR)
